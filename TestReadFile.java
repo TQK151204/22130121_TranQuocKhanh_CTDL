@@ -1,6 +1,4 @@
-package Lab_7;
-
-
+package Lab_8;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -1,50 +1,44 @@
-package Lab_7;
+package Lab_9;
 
 public class Student {
 	private String id;
-	private String firstName;
-	private String lastName;
-	private int birthYear;
-	private double GPA;
-	public Student(String id, String firstName, String lastName, int birthYear, double gPA) {
+	private String name;
+	private int year;
+
+	public Student(String id, String name, int year) {
 		super();
 		this.id = id;
-		this.firstName = firstName;
-		this.lastName = lastName;
-		this.birthYear = birthYear;
-		GPA = gPA;
+		this.name = name;
+		this.year = year;
 	}
+
 	public String getId() {
 		return id;
 	}
+
 	public void setId(String id) {
 		this.id = id;
 	}
-	public String getFirstName() {
-		return firstName;
+
+	public String getName() {
+		return name;
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+
+	public void setName(String name) {
+		this.name = name;
 	}
-	public String getLastName() {
-		return lastName;
+
+	public int getYear() {
+		return year;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+
+	public void setYear(int year) {
+		this.year = year;
 	}
-	public int getBirthYear() {
-		return birthYear;
+
+	public int getYear1() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	public void setBirthYear(int birthYear) {
-		this.birthYear = birthYear;
-	}
-	public double getGPA() {
-		return GPA;
-	}
-	public void setGPA(double gPA) {
-		GPA = gPA;
-	}
-	
-	
-	
+
 }
